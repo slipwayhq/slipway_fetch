@@ -1,0 +1,23 @@
+{
+  "rigging": {
+    "output": {
+      "component": "file:src",
+      "allow": [
+        { "permission": "http" }
+      ],
+      "input": {
+        "text": {
+          "test1": "https://icanhazip.com/"
+        },
+        "bin": {
+          "test2": "https://icanhazip.com/"
+        },
+        "json": {
+          "test3": "https://jsonplaceholder.typicode.com/todos/1",
+          "test4": "https://jsonplaceholder.typicode.com/todos/2",
+          "test5": "https://jsonplaceholder.typicode.com/todos/3"
+        }
+      }
+    }
+  }
+}

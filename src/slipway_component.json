@@ -1,0 +1,74 @@
+{
+  "publisher": "slipwayhq",
+  "name": "fetch",
+  "version": "0.1.0",
+  "input": {
+    "optionalProperties": {
+      "throw_on_failure": {
+        "type": "boolean"
+      },
+      "text": {
+        "values": {
+          "type": "string"
+        }
+      },
+      "bin": {
+        "values": {
+          "type": "string"
+        }
+      },
+      "json": {
+        "values": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "output": {
+    "optionalProperties": {
+      "text": {
+        "values": {
+          "properties": {
+            "status": {
+              "type": "uint32"
+            },
+            "ok": {
+              "type": "boolean"
+            },
+            "body": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "bin_encoded": {
+        "values": {
+          "properties": {
+            "status": {
+              "type": "uint32"
+            },
+            "ok": {
+              "type": "boolean"
+            },
+            "body": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "json": {
+        "values": {
+          "properties": {
+            "status": {
+              "type": "uint32"
+            },
+            "ok": {
+              "type": "boolean"
+            },
+            "body": {}
+          }
+        }
+      }
+    }
+  }
+}
