@@ -1,6 +1,6 @@
 # `slipwayhq.fetch`
 
-A Slipway Component which takes multiple URLs as an input, grouped depending on the expected response type,
+A [Slipway](https://slipway.co/) Component which takes multiple URLs as an input, grouped depending on the expected response type,
 and returns the result of fetching those URLS as the output.
 
 This is useful for loading data to pass into other components, without having
