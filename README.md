@@ -25,6 +25,11 @@ will be required.
 
 ## Example Usage
 
+Test the component by running the following command and pasting in the input when prompted:
+```
+slipway run-component "slipwayhq.fetch.0.5.0" --allow-http
+```
+
 Input:
 ```json
 {
