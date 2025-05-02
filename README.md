@@ -14,7 +14,7 @@ which is how other Components usually expect to receive binary data.
 Components can then extract the raw binary data using the
 [Slipway Host API](https://slipway.co/docs/basics/host-api#binary-encoding-and-decoding).
 
-## Required Permissions
+## Suggested Permissions
 
 The component will require whatever permissions necessary to load the supplied
 URLs.
