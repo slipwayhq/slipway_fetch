@@ -1,1 +1,1 @@
-slipway run test_rig.json --allow-all --log-level debug --registry-url "file:../slipway_{name}/components/{publisher}.{name}.{version}.tar"
+slipway run test_rig.json --allow-all --log-level debug --registry "file:../slipway_{name}/components/{publisher}.{name}.{version}.tar"
